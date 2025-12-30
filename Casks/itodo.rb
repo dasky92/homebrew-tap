@@ -3,7 +3,7 @@ cask "itodo" do
   name "itodo"
   desc "Simple TUI todo CLI"
   homepage "https://github.com/dasky92/itodo"
-  version "0.0.16"
+  version "0.0.17"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "itodo" do
   on_macos do
     on_intel do
       url "https://github.com/dasky92/itodo/releases/download/v#{version}/itodo_Darwin_x86_64.tar.gz"
-      sha256 "3c971672bdffbe592124eb7d453680b7c10f2747d4c9beab5e07fc7ece2f325c"
+      sha256 "d17be45c1c6759cde2db3f829879f68671bb07a8783df061783f3265dafdb0d0"
     end
     on_arm do
       url "https://github.com/dasky92/itodo/releases/download/v#{version}/itodo_Darwin_arm64.tar.gz"
-      sha256 "d72f1b3cbea2be24103f032d8e2b670839db8ab31567f208fe6c253c664b8ec6"
+      sha256 "c726b030fa5432c66e03092d2e9cc723d8322964a0c3f4281dfd83e14cafbaaa"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dasky92/itodo/releases/download/v#{version}/itodo_Linux_x86_64.tar.gz"
-      sha256 "2a10c56e178a411d21cf7d59ef5cff93abd4d1d9ba90c8f66e244690a6182e84"
+      sha256 "4abd2c43868bbba85fa66cadcb2398b59c9ca87023359ef2f5a3db87a9bd33c8"
     end
     on_arm do
       url "https://github.com/dasky92/itodo/releases/download/v#{version}/itodo_Linux_arm64.tar.gz"
-      sha256 "138ffd42696eb99d73dfb6283b7f8169eaee5b936a71d618bcf320d635b7a33b"
+      sha256 "83c9e632c0d42ac23a6198595db3ddae6a5bd87817260ea9388492eef91b5113"
     end
   end
 
