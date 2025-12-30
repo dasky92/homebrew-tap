@@ -14,22 +14,22 @@ cask "itodo" do
   on_macos do
     on_intel do
       url "https://github.com/dasky92/itodo/releases/download/v#{version}/itodo_Darwin_x86_64.tar.gz"
-      sha256 "d17be45c1c6759cde2db3f829879f68671bb07a8783df061783f3265dafdb0d0"
+      sha256 "53ca565942d78dc2b69d305a6d6cb37782636027499bbf70b28a35dcfb752736"
     end
     on_arm do
       url "https://github.com/dasky92/itodo/releases/download/v#{version}/itodo_Darwin_arm64.tar.gz"
-      sha256 "c726b030fa5432c66e03092d2e9cc723d8322964a0c3f4281dfd83e14cafbaaa"
+      sha256 "df6a5250a16798b537840c311d0493f028666fc3dbd1fdf15c4f0e194a0c1b67"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dasky92/itodo/releases/download/v#{version}/itodo_Linux_x86_64.tar.gz"
-      sha256 "4abd2c43868bbba85fa66cadcb2398b59c9ca87023359ef2f5a3db87a9bd33c8"
+      sha256 "345e559bd039b346a62ccb87c453aabe94d153fac88b3f8253c82baadf04584c"
     end
     on_arm do
       url "https://github.com/dasky92/itodo/releases/download/v#{version}/itodo_Linux_arm64.tar.gz"
-      sha256 "83c9e632c0d42ac23a6198595db3ddae6a5bd87817260ea9388492eef91b5113"
+      sha256 "8e1515ea17653d730c4a759f8330d23916e9bcc2d3190255ad20622213235636"
     end
   end
 
